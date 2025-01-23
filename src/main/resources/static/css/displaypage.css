@@ -1,0 +1,100 @@
+/* Reset default styling */
+body, h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Page background with image */
+body {
+    background: url('https://media.istockphoto.com/id/1459373176/vector/abstract-defocused-background-spring-summer-sea.jpg?s=612x612&w=0&k=20&c=P6D1VrXeeKsJfyKzlJeIqxyNXkeYtMb6C1mW6p68xro=') no-repeat center center fixed;
+    background-size: cover;
+    color: #4A628A;
+}
+
+/* Navbar adjustments */
+.navbar {
+    background-color: #4A628A; /* Darker navbar background */
+}
+
+.navbar-brand, .nav-link {
+    color: #FFFFFF !important;
+    font-weight: bold;
+}
+
+/* Page Heading */
+h1 {
+    font-size: 2.5rem;
+    color: #800000;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+/* Table Styling */
+.table {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+/* Styling the Table Header */
+.table thead {
+    background-color: #7AB2D3; /* Change to a light blue */
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+/* Table row styling */
+.table th, .table td {
+    text-align: center;
+    padding: 12px 20px;
+}
+
+/* Hover effect for table rows */
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Action Buttons Styling */
+.btn {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-warning {
+    background-color: #FFA500;
+    color: #FFFFFF;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #FF8C00;
+}
+
+.btn-danger {
+    background-color: #E74C3C;
+    color: #FFFFFF;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #C0392B;
+}
+
+/* Responsive Table */
+@media (max-width: 768px) {
+    .table {
+        margin-top: 20px;
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+}

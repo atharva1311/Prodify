@@ -1,0 +1,60 @@
+/* Reset some default styling */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #7AB2D3, #DFF2EB); /* New light gradient for a fresh look */
+    color: #4A628A;
+    height: 100vh;
+}
+
+/* Navbar adjustments */
+.navbar {
+    background-color: #4A628A; /* Darker navbar background */
+}
+
+.navbar-brand, .nav-link {
+    color: #FFFFFF !important;
+    font-weight: bold;
+}
+
+/* Hero Section Styling */
+.hero-section {
+    background: url('https://images.unsplash.com/photo-1506748686217-bc7203584c3a') no-repeat center center; /* Beautiful image for background */
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero-content .btn {
+    background-color: #FFFFFF;
+    color: #4A628A;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.hero-content .btn:hover {
+    background-color: #4A628A;
+    color: #FFFFFF;
+}
+
+
+
+
